@@ -25,6 +25,8 @@ const config = {
     },
     collectCoverageFrom: [
         'assets/js/**/*.ts',
+        '!assets/js/**/*.d.ts',
+        '!assets/js/types.ts',
         '!assets/js/**/*.test.ts',
         '!assets/js/**/*.spec.ts',
         '!assets/js/**/__tests__/**'

@@ -6,8 +6,8 @@
     "scripts": {
         "build": "tsc",
         "build:watch": "tsc --watch",
-        "lint": "eslint 'assets/js/**/*.ts' --ignore-pattern '**/*.test.ts' --ignore-pattern '**/__tests__/**' --max-warnings 0",
-        "lint:fix": "eslint 'assets/js/**/*.ts' --ignore-pattern '**/*.test.ts' --ignore-pattern '**/__tests__/**' --fix",
+        "lint": "eslint 'assets/js/**/*.ts' --ignore-pattern '**/*.d.ts' --ignore-pattern '**/*.test.ts' --ignore-pattern '**/__tests__/**' --max-warnings 0",
+        "lint:fix": "eslint 'assets/js/**/*.ts' --ignore-pattern '**/*.d.ts' --ignore-pattern '**/*.test.ts' --ignore-pattern '**/__tests__/**' --fix",
         "test": "jest --coverage",
         "test:watch": "jest --watch",
         "test:ci": "jest --coverage --ci --reporters=default --reporters=jest-junit",
